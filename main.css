@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+.nav{
+   
+    padding-top: 20px;
+    font-size: larger;
+    color: white;
+}
+li:hover{
+    cursor: crosshair;
+    font-size: larger;
+    background: -webkit-linear-gradient(rgb(241, 246, 249),rgb(20, 39, 78));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-list{
+    animation: nav 1.5s 1 ease-in;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+@keyframes nav {
+    0%{
+        transform: translateY(-200%);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
