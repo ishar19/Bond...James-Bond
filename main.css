@@ -67,6 +67,30 @@ li:hover {
   float: left;
 }
 
+@media only screen and (max-width: 900px){
+  img{
+    max-width: 250px;
+    max-height: 250px;
+  }  
+  p{
+    min-width:350px;
+  }
+
+
+}
+
+@media only screen and (max-width: 300px){
+  img{
+    max-width: 150px;
+    max-height: 150px;
+  }  
+  p{
+    min-width:250px;
+  }
+
+
+}
+
 img{
   margin-right:5px;
 }
