@@ -62,6 +62,15 @@ li:hover {
   }
 }
 
+.no_time_to_die,.quantum_of_solace,.skyfall,.spectre,.casino_royale{
+  flex-wrap: wrap;
+  float: left;
+}
+
+img{
+  margin-right:5px;
+}
+
 .no_time_to_die {
   padding-top: 100px;
   display: flex;
