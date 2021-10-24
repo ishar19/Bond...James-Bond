@@ -81,3 +81,74 @@ background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vc
 background-size: 100%; }
 
 
+@media only screen and (max-width: 900px){
+    @keyframes gunshot {
+    0% {
+    transform:translateX(500px);
+  }
+  100% {
+    transform:translateX(0px);
+    }
+    
+}
+    .circle-one{
+        height: 100px;
+        width: 100px;
+        animation: gunshot 1.5s  3s 1 ease-in-out;
+
+    }
+    .circle-two{
+        height: 100px;
+        width: 100px;
+        animation: gunshot 1.5s  1.5s 1 ease-in-out;
+    }
+    .circle-three{
+        height: 100px;
+        width: 100px;
+        animation: gunshot 1.5s 1 ease-in-out;
+    }
+
+    img{
+       height: 30vh;
+       width: 40vh;
+       padding-bottom: 100px;
+    }
+    } 
+
+    @media only screen and (max-width: 300px){
+    img{
+       height: 10vh;
+       width: 20vh;
+       padding-bottom: 50px;
+    }
+
+    @keyframes gunshot {
+    0% {
+    transform:translateX(500px);
+  }
+  100% {
+    transform:translateX(0px);
+    }
+    
+}
+    .circle-one{
+        height: 50px;
+        width: 50px;
+        animation: gunshot 1.5s  3s 1 ease-in-out;
+
+    }
+    .circle-two{
+        height: 50px;
+        width: 50px;
+        animation: gunshot 1.5s  1.5s 1 ease-in-out;
+    }
+    .circle-three{
+        height: 50px;
+        width: 50px;
+        animation: gunshot 1.5s 1 ease-in-out;
+    }
+
+
+
+
+    } 
